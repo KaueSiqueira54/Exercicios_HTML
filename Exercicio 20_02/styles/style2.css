@@ -1,0 +1,35 @@
+body {
+  background-image: url(/Exercicio\ 20_02/src/fundo3.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: center;
+  font-size: 1.2rem;
+  background-color: #000086;
+  font-family: verdana;
+}
+
+h1,
+h4 {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+p {
+  background-color: #000;
+  color: #fff;
+}
+
+#link {
+  text-align: center;
+  background-color: transparent;
+}
+
+#link a {
+  color: #000;
+}
+
+#link a:hover {
+  color: #fff;
+}
