@@ -1,0 +1,76 @@
+body {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+#camada1 {
+  background-color: blue;
+  color: #000;
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  top: 5%;
+  left: 10%;
+  z-index: 1;
+}
+
+#camada2 {
+  background-color: red;
+  color: #000;
+  position: absolute;
+  width: 60%;
+  height: 20%;
+  top: 5%;
+  left: 30%;
+  right: 100%;
+  z-index: 1;
+}
+
+#camada3 {
+  background-color: rgb(1, 247, 1);
+  color: #000;
+  position: absolute;
+  width: 80%;
+  height: 10%;
+  top: 25%;
+  left: 10%;
+  right: 100%;
+  z-index: 1;
+}
+
+#camada4 {
+  background-color: yellow;
+  color: #000;
+  position: absolute;
+  border: 10px solid red;
+  box-sizing: border-box;
+  width: 80%;
+  height: 50%;
+  top: 35%;
+  left: 10%;
+  right: 100%;
+  z-index: 1;
+}
+
+#camada5 {
+  background-color: gray;
+  color: #000;
+  position: absolute;
+  width: 80%;
+  height: 5%;
+  top: 85%;
+  left: 10%;
+  right: 100%;
+  z-index: 1;
+}
+
+#camada1:hover,
+#camada2:hover,
+#camada3:hover,
+#camada4:hover,
+#camada5:hover {
+  background-color: #fff;
+  transform: scale(1.02);
+  z-index: 2;
+}
