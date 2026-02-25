@@ -1,0 +1,64 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.fundo {
+  position: relative;
+  width: 80%;
+  background-color: #00ffea;
+  margin: 20% auto;
+}
+
+#camada1 {
+  margin: 1rem;
+  position: relative;
+  width: 15rem;
+  height: 12rem;
+  color: #fff;
+  background-color: #000000;
+  border: 5px solid red;
+  text-align: center;
+  padding: 1rem; /*Espaço para dentro da área */
+  float: left; /*Flutue a esquerda, quebra de linha do float-left*/
+}
+
+#camada2 {
+  margin: 1rem;
+  position: relative;
+  width: 15rem;
+  height: 12rem;
+  color: #fff;
+  background-color: #00000062;
+  border: 5px solid red;
+  text-align: center;
+  padding: 1rem;
+  float: left;
+}
+
+#camada3 {
+  margin: 1rem;
+  position: relative;
+  width: 15rem;
+  height: 12rem;
+  color: #000000;
+  background-color: #00000062;
+  border: 5px solid rgb(0, 195, 255);
+  text-align: center;
+  padding: 1rem;
+  clear: left; /*Quebra a sequência de floats*/
+}
+
+#camada_absoluta {
+  position: absolute;
+  text-align: center;
+  width: 15rem;
+  height: 12rem;
+  background-color: rgb(255, 0, 0);
+  top: 10%;
+  left: 50%;
+  z-index: 2;
+}
