@@ -1,0 +1,149 @@
+/* Reset CSS */
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+main {
+  position: relative;
+  margin: 1% auto;
+  width: 80%;
+  height: auto;
+  font-size: verdana;
+}
+
+/* Header 1 */
+
+#header1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  background-color: #000;
+}
+
+#header1 h1 {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#nav1 {
+  position: relative;
+  align-items: left;
+  width: 100%;
+  height: 30px;
+  background-color: blue;
+  color: #fff;
+}
+
+/* Nav2 */
+
+#nav2 {
+  position: relative;
+  width: 20%;
+  height: 450px;
+  color: #fff;
+  background-color: #686868;
+  text-align: center;
+  float: left;
+}
+
+/* Section */
+
+section {
+  position: relative;
+  width: 60%;
+  height: auto;
+  background-color: #fff;
+  float: left;
+  text-align: center;
+}
+
+#header2 {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 95%;
+  height: 30px;
+  background-color: #bdbdbd;
+}
+
+#div1_section {
+  margin: 0.5rem auto;
+  position: relative;
+  text-align: center;
+  width: 95%;
+  height: 160px;
+  background-color: #69ac71;
+}
+
+/* Aside */
+
+aside {
+  position: relative;
+  width: 20%;
+  height: 430px;
+  background-color: rgb(243, 4, 215);
+  text-align: center;
+  float: left;
+}
+
+/* Parágrafo */
+
+p {
+  position: relative;
+  margin: 0 auto;
+  text-align: left;
+  width: 95%;
+  height: 60px;
+  background-color: rgba(0, 255, 255, 0.374);
+}
+
+/* Divs */
+
+.container {
+  position: relative;
+  display: flex;
+  margin: 0.5rem auto;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 98%;
+  height: auto;
+  color: #fff;
+}
+
+#div1 {
+  width: 30%;
+  height: 120px;
+  background-color: #050505;
+}
+
+#div2 {
+  width: 30%;
+  height: 120px;
+  background-color: #957070;
+}
+#div3 {
+  width: 30%;
+  height: 120px;
+  background-color: #ff2727;
+}
+
+footer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  background-color: #000;
+  color: #fff;
+}
