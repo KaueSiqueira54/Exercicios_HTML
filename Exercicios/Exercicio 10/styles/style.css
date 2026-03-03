@@ -1,0 +1,106 @@
+/* Reset CSS */
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+main {
+  position: relative;
+  width: 80%;
+  height: auto;
+  margin: 2% auto;
+}
+
+#header1 {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  top: 50%;
+  height: 50px;
+  background-color: yellow;
+}
+
+/* Section lado esquerdo */
+
+#esquerdo {
+  position: relative;
+  width: 30%;
+  height: 400px;
+  background-color: cyan;
+  float: left;
+}
+
+#nav_esquerda {
+  position: relative;
+  margin: 0 auto;
+  width: 90%;
+  height: 180px;
+  background-color: #fff;
+}
+
+#aside_esquerda {
+  position: relative;
+  top: 2%;
+  margin: 0 auto;
+  width: 90%;
+  height: 180px;
+  background-color: #fff;
+}
+
+/* Section lado direito */
+
+#direita {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  height: 400px;
+  background-color: blue;
+  color: #fff;
+  float: left;
+}
+
+/* Article */
+
+article {
+  position: relative;
+  width: 95%;
+  height: 400px;
+  left: 2.5%;
+  background-color: #fff;
+  color: #000;
+  float: left;
+}
+
+article h1 {
+  text-align: center;
+  background-color: cyan;
+  margin: 1%;
+}
+
+#p2 {
+  text-align: left;
+  height: 100px;
+  background-color: gray;
+  margin: 1%;
+}
+
+div {
+  position: relative;
+  margin: 0 auto;
+  width: 98%;
+  height: 200px;
+  background-color: purple;
+  color: #000;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background-color: #000;
+  color: #fff;
+  float: left;
+}

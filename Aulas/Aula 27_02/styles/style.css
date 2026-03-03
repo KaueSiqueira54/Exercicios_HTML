@@ -1,0 +1,56 @@
+/* Css reset */
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+main {
+  border: 3px solid black;
+  position: relative;
+  width: 90%;
+  height: auto;
+  margin: 2% auto;
+}
+
+#cabecalho {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background-color: #f23;
+  text-align: center;
+}
+
+#menu {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(0, 207, 218);
+}
+
+#esquerda {
+  position: relative;
+  width: 30%;
+  height: 350px;
+  background-color: green;
+  float: left; /*Precisa estar nos dois para ficar lado a lado */
+}
+
+#direita {
+  position: relative;
+  width: 70%;
+  height: 350px;
+  background-color: yellow;
+  float: left; /*Precisa estar nos dois para ficar lado a lado */
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background-color: gray;
+  text-align: center;
+  clear: left; /*Quebra a sequência dos floats */
+}
